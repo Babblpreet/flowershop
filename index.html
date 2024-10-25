@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Flower shop</title>
+  </head>
+  <body>
+    <section
+      class="border-b-[1px] border-l-[1px] border-r-[1px] border-customBlack"
+    >
+      <header
+        class="border-b border-t border-customBlack sticky z-10 top-0 bg-white"
+      >
+        <nav>
+          <ul class="list-none navbar_grid flex justify-between">
+            <li class="navbar_grid">
+              <div class="lg:navbar_grid">
+                <div class="navtext_contain border-r border-customBlack flex">
+                  <a class="header_links hidden md:block" href="">Shop</a>
+                  <img
+                    class="md:hidden cursor-pointer"
+                    src="./assets/svg/Menu.svg"
+                    alt="menuicon"
+                  />
+                </div>
+                <div
+                  class="navtext_contain border-r border-customBlack hidden lg:flex"
+                >
+                  <a class="header_links" href="">Contact</a>
+                </div>
+              </div>
+              <div></div>
+            </li>
+            <li class="navbar_grid">
+              <div></div>
+              <div class="lg:navbar_grid">
+                <div
+                  class="navtext_contain border-l border-customBlack hidden lg:flex"
+                >
+                  <a class="header_links" href="">Sign in</a>
+                </div>
+                <div class="navtext_contain border-l border-customBlack flex">
+                  <a class="header_links hidden md:block" href="">Cart</a>
+                  <img
+                    class="md:hidden cursor-pointer"
+                    src="./assets/svg/shopping_bag_FILL0_wght300_GRAD0_opsz24.svg"
+                    alt="bagcarticon"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="xl:grid xl:grid-cols-2">
+          <div class="sm:p-20 xl:sticky top-[85px] z-2 :left-0 h-fit xl:border-none border-b border-customBlack flex items-center flex-col">
+            <div class="max-w-[560px] border-b border-customBlack pb-[54px]">
+              <h3 class="text-[67px] font-semibold leading-[80px]">
+                Kyiv LuxeBouquets
+                <img
+                  class="inline-block align-super -ml-4"
+                  src="./assets/svg/®.svg"
+                  alt="R"
+                />
+              </h3>
+              <p class="text-lg leading-6 font-normal mt-4">
+                Discover Uniquely Crafted Bouquets and Gifts for Any Occasion:
+                Spread Joy with Our Online Flower Delivery Service
+              </p>
+            </div>
+            <div class="flex gap-6 max-w-[560px] mt-6">
+              <img
+                class="block"
+                src="./assets/images/img-actoress.jpg"
+                alt="imgactoress"
+              />
+              <span class="border-l border-customBlack"></span>
+              <p class="mt-[188px] text-sm leading-4 font-normal">
+                Experience the joy of giving with our modern floral studio.
+                Order online and send fresh flowers, plants and gifts today.
+              </p>
+            </div>
+          </div>
+          <div id="img_contain" class=""></div>
+        </section>
+      </main>
+      <!-- <footer>
+        <div class="grid md:grid-cols-4 grid-cols-2">
+          <div class="border border-customBlack py-10 px-10 border-t">
+            <div class="pb-6 text-base font-normal lead-[22.5px]">
+              <h4>
+                Remember to offer beautiful flowers from Kyiv LuxeBouquets
+                Valentines Day, Mothers Day, Christmas... Reminds you 7 days
+                before. No spam or sharing your address
+              </h4>
+            </div>
+            <div class="">
+              <input
+                class="w-full font-medium text-sm leading-4 text-[#808080]"
+                type="email"
+                placeholder="Your Email"
+              />
+              <div class="bg-black mt-4">
+                <button
+                  class="text-white flex items-center justify-center pt-[19.5px] pb-[17.5px] px-[122.5px] font-medium text-base leading-[19.2px] tracking-[3%]"
+                >
+                  REMIND
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="py-10 px-10 border-t border-r border-customBlack border-b footer_sec"
+          >
+            <div>
+              <h4 class="footer-head">Contact Us</h4>
+            </div>
+            <div>
+              <h4 class="text-sm font-normal text-[#808080] leading-[16.8px]">
+                Address
+              </h4>
+              <h4
+                class="text-base font-medium leading-5 tracking-[2.5%] mt-2 text-[#121212]"
+              >
+                15/4 Khreshchatyk Street, Kyiv
+              </h4>
+            </div>
+            <div class="mt-6">
+              <h4 class="font-normal text-sm leading-4 text-[#808080]">
+                Phone
+              </h4>
+              <h4 class="user-id">+380980099777</h4>
+            </div>
+            <div class="mt-6">
+              <h4 class="font-normal text-sm leading-4 text-[#808080]">
+                General Enquiry:
+              </h4>
+              <h4 class="user-id">Kiev.Florist.Studio@gmail.com</h4>
+            </div>
+            <div class="abc mt-6">
+              <h4 class="mb-6 font-medium text-[21px] leading-6 text-[#808080]">
+                Follow Us
+              </h4>
+              <div id="icons" class="grid grid-cols-5">
+                <img src="./assets/images/" alt="" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="py-10 px-10 border-t-0 border-r border-[#121212] border-b flex flex-col items-start gap-6 footer-contents"
+          >
+          </div>
+          <div
+            class="py-10 px-10 border-t-0 border-r border-black border-b footer-content"
+          >
+          </div>
+        </div>
+      </footer> -->
+    </section>
+    <script>
+      const img_contain = document.getElementById("img_contain");
+      const images = [
+        {
+          name: "Fresh Flowers",
+          img: "./assets/images/card-item.jpg",
+          row: true,
+        },
+        {
+          name: "Dried Flowers",
+          img: "./assets/images/card-item-11.jpg",
+        },
+        {
+          name: "Live Plants ",
+          img: "./assets/images/card-item-12.jpg",
+          row: true,
+        },
+        {
+          name: "Aroma Candels",
+          img: "./assets/images/card-item-13.jpg",
+        },
+        {
+          name: "Fresheners ",
+          img: "./assets/images/card-item-11.jpg",
+          row: true,
+        },
+      ];
+      img_contain.innerHTML = images
+        .map((path) => {
+          return `
+          <div class="grid grid-cols-2 w-full items-center   gap-[1px] bg-customBlack border-b-[1px] lg:border-l border-solid border-customBlack">
+            <div class="flex items-center bg-white justify-center h-full relative ">
+              <h3 class="text-[38px] text-customBlack leading-[45.6px] font-medium">
+              ${path.name}
+              </h3>
+              <a href="" class="flex gap-[7px] items-center  ${
+                path.row ? "" : "flex-row-reverse"
+              } font-semibold text-[16px] leading-[19.2px] text-customBlack absolute bottom-6 left-2/4 -translate-x-2/4">
+                Shop now
+                <img class=" ${
+                  path.row ? "" : "rotate-180"
+                }" src="./assets/svg/arrow-right.svg" alt="right">
+              </a>
+            </div>
+            <img class="${
+              path.row === true ? "" : "row-start-1"
+            } w-full" src="${path.img}" alt="" />
+            </div>
+            `;
+        })
+        .join("");
+
+    //   0
+    </script>
+  </body>
+</html>
